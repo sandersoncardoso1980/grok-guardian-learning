@@ -71,7 +71,7 @@ const Dashboard = () => {
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-semibold">Minha evolução</h1>
             <div className="flex gap-3">
-              <Button variant="subtle" onClick={() => navigate("/")}>Sair do demo</Button>
+              <Button variant="secondary" onClick={() => navigate("/")}>Sair do demo</Button>
               <Button variant="hero">Iniciar sessão de estudo</Button>
             </div>
           </div>
@@ -107,7 +107,7 @@ const Dashboard = () => {
           <h1 className="text-2xl font-semibold">Evolução dos alunos</h1>
           <div className="flex gap-3">
             <Button variant="outline" onClick={() => navigate("/admin/upload")}>Enviar PDFs</Button>
-            <Button variant="subtle" onClick={() => navigate("/")}>Sair do demo</Button>
+            <Button variant="secondary" onClick={() => navigate("/")}>Sair do demo</Button>
           </div>
         </div>
 

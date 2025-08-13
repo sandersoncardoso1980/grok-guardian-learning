@@ -41,7 +41,7 @@ const Index = () => {
         <nav className="flex items-center gap-4 text-sm">
           <a href="#recursos" className="hover:underline">Recursos</a>
           <a href="#como-funciona" className="hover:underline">Como funciona</a>
-          <Button variant="subtle" onClick={() => startAs("aluno")}>Entrar demo</Button>
+          <Button variant="secondary" onClick={() => startAs("aluno")}>Entrar demo</Button>
         </nav>
       </header>
 
